@@ -8,7 +8,7 @@ Het concept is gebaseerd op het idee dat een biologisch geïnspireerd netwerk op
 De bestanden
 De repository bestaat uit twee hoofdscripts die na elkaar gedraaid moeten worden.
 
-1. living_crime_scene_snn_speedversion7.py
+1. living_crime_scene_SNN_simulation.py
 Dit script bevat de simulatie-engine. Het maakt gebruik van de Brian2 simulator om een netwerk van neuronen op te zetten. Dit netwerk wordt vervolgens blootgesteld aan verschillende scenario's:
 
 Baseline (normaal gedrag)
@@ -23,7 +23,7 @@ sVCE (virale verspreiding over de graaf)
 
 Het script genereert synthetische data en schrijft de resultaten weg naar een CSV-bestand (living_crime_scene_results.csv).
 
-2. analyze_living_crime_scene8.py
+2. analyze_living_crime_scene_data.py
 Dit is het analyse-script. Het leest de data die door de simulatie is gegenereerd en voert statistische en visuele analyses uit. Het script kijkt onder andere naar:
 
 Statistische significantie (Z-scores, ANOVA)
